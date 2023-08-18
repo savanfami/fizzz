@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    /* font-family: 'Merriweather', serif; */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color:#0a0b27;;
+    display: flex;
+    position: fixed;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 10px;
+    
+}
+.logo img{
+    height: 27px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul li :hover{
+color: red;
+text-decoration: none;
+}
+.body1{
+  width: 100%;
+}
+.body1 img{
+    width: 100%;
+}
+.left-section{
+    width: 50%;
+    background-color: black;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.right-section{
+    width: 50%;
+    height: 400px;
+}
+.left-section img{
+    width: 25%;
+}
+.left-section h1{
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    font-weight: 700;
+}
+.right-section{
+    font-size: 24px;
+    text-align: center;
+    text-align:left;
+}
+.body2{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4px;
+}
+.para{
+    padding: 0 130px 0 130px;
+}
+.logos{
+    padding: 0 130px 0 130px;
+}
+.logos img{
+    cursor: pointer;
+}
+.body-3{
+    width: 100%;
+}
+.body-3 img{
+    width: 100%;
+}
+.footer{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -4px;
+    
+}
+.foot1{
+    width:33.333%;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.foot2{
+    width:33.333%;
+    height: 245px;
+  
+    background-color:#fff;
+}
+.foot3{
+    background-color:#fff;
+    width:33.3333%;
+    height: 245px;
+
+}
+.foot1 p{
+    font-size:14px;
+    margin-right: 130px;
+    
+}
+.foot2 p{
+    font-size:14px;
+    margin-top: 60px;
+    
+}
+.foot2 h5:hover{
+    color: red;
+text-decoration: underline;
+}
+.foot3 h5:hover{
+    color: red;
+    text-decoration: underline;
+   
+}
+.margin{
+    margin-top: 60px;
+}       
+.foot3 img{
+    cursor: pointer;
+}
+
+
+
